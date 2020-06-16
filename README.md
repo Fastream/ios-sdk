@@ -22,7 +22,7 @@ pod 'ios-sdk'
 
 ## Author
 
-lukasz7251, lukasz.szymanczuk@xtb.com
+lukasz7251
 
 ## License
 
