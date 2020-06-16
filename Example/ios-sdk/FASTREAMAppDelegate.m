@@ -10,37 +10,41 @@
 
 @implementation FASTREAMAppDelegate
 
+@synthesize fastream;
+
+- (Fastream*)createFastreamWithToken:(NSString*)token serverURL:(NSString*)server {
+    return [[Fastream alloc] initWithToken:token
+                               serverURL:server andFlushInterval:60];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    fastream = [self createFastreamWithToken:@"eyJhbGciOiJIUzI1NiJ9.eyJpbnB1dF9uYW1lIjoieHRiIiwiaW5wdXRfZXZlbnRfbmFtZSI6Inh0YiIsImlzcyI6ImZhc3RyZWFtIiwic3ViIjoiQXBpSW5wdXQiLCJpYXQiOjE1OTEwMDkyNzd9.pkLbSjIRXCDp8jRVGBJ5RqGEsc12pyHgJz3-MdlfJlI" serverURL:@"https://prototype.fastream.io"];
+    [fastream track:@"didFinishLaunchingWithOptions" customEvent:nil];
+    [fastream track:@"iosEvent1" customEvent:nil];
+    [fastream track:@"iosEvent2" customEvent:nil];
+    [fastream flush];
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
 @end

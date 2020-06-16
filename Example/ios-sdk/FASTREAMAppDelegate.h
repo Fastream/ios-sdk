@@ -7,9 +7,11 @@
 //
 
 @import UIKit;
+#import <ios_sdk/Fastream.h>
 
 @interface FASTREAMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property(nonatomic, strong) id fastream;
 @end

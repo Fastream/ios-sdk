@@ -7,7 +7,6 @@ target 'ios-sdk_Example' do
 
   target 'ios-sdk_Tests' do
     inherit! :search_paths
-
     
   end
 end
