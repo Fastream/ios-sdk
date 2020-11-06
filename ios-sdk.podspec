@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ios-sdk'
+  s.name             = 'fastream-ios-sdk'
   s.version          = '0.0.1'
   s.summary          = 'Fastrean SDK for iOS'
   s.description      = <<-DESC
