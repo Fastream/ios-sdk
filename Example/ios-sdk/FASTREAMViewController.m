@@ -7,12 +7,18 @@
 //
 
 #import "FASTREAMViewController.h"
+#import "FASTREAMAppDelegate.h"
 
 @interface FASTREAMViewController ()
 
 @end
 
 @implementation FASTREAMViewController
+- (IBAction)sendEventButtonPressed {
+    Fastream *fastream = ((FASTREAMAppDelegate*)UIApplication.sharedApplication.delegate).fastream;
+    [fastream track:@"Button clicked!" customEvent:nil];
+    [fastream flush];
+}
 
 - (void)viewDidLoad
 {

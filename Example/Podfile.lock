@@ -2,15 +2,20 @@ PODS:
   - ios-sdk (0.1.0)
 
 DEPENDENCIES:
-  - ios-sdk (from `../`)
+  - ios-sdk (from `https://github.com/Fastream/ios-sdk.git`)
 
 EXTERNAL SOURCES:
   ios-sdk:
-    :path: "../"
+    :git: https://github.com/Fastream/ios-sdk.git
+
+CHECKOUT OPTIONS:
+  ios-sdk:
+    :commit: 3259cd7150862df73028368f1b968f0fde5e83a4
+    :git: https://github.com/Fastream/ios-sdk.git
 
 SPEC CHECKSUMS:
   ios-sdk: 80cb5dd4eef2d9015467998ad4c843411fbbe662
 
-PODFILE CHECKSUM: b084e0a17e9f12d1280559d4cc806fb4235166c0
+PODFILE CHECKSUM: d5d231dec471282d741ee41e514e5d1c45db6480
 
 COCOAPODS: 1.9.3

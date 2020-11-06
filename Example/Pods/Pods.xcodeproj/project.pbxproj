@@ -11,15 +11,16 @@
 		1230A82F84B3710DC0703E28EA45D1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1A04B0D4BA5728E2F244D723E66F65AD /* Pods-ios-sdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 375718D58E4670BB0E7018F62783E49F /* Pods-ios-sdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50505E8C7D59431811661681B2EB11BC /* Pods-ios-sdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465080215E5B09B97D83BA436169134 /* Pods-ios-sdk_Tests-dummy.m */; };
-		5FC0427A096565620661900159B7C2CB /* NSData+FastreamBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD88F83A9AE79E1D32ABAD1FE0908A /* NSData+FastreamBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC0427A096565620661900159B7C2CB /* NSData+FastreamBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F567E99EE6C8716CF20287D7AD765C /* NSData+FastreamBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E50B07E16F710AE68BE1BE06FD993DB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2290A28B9BE6AB2E843D8A2720D746 /* ReplaceMe.m */; };
 		79CF452F4558BDB79B70A8DC21B19C4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7E2DF520C36BE822539F8D7EBAF35D55 /* NSData+FastreamBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C35D730101B23C2EAFFE80F77F0141 /* NSData+FastreamBase64.m */; };
-		83CB9F93850A243A96F5B3B63F5673F7 /* ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F7912F15BB3864BD5020FAD4D7A41 /* ios-sdk-dummy.m */; };
-		8503AEADF07EE6402ADB192764254C79 /* ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B118D97E5C324513D2AA7ECEB0F1214F /* ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		987AF5951E8BEF8330F2A3B3EDE72836 /* Fastream.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FA457E7FCEDFDD49962757F400A75F /* Fastream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		996FE7CCFA1F7E24EF36E409C8343C10 /* Fastream.m in Sources */ = {isa = PBXBuildFile; fileRef = 790236159473D406770BECF85D0326C4 /* Fastream.m */; };
+		7E2DF520C36BE822539F8D7EBAF35D55 /* NSData+FastreamBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAB053F11D560602DA5AE30D42BD961 /* NSData+FastreamBase64.m */; };
+		83CB9F93850A243A96F5B3B63F5673F7 /* ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4AF1F69F92F0C1E8DE8782FCAA395F /* ios-sdk-dummy.m */; };
+		8503AEADF07EE6402ADB192764254C79 /* ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1363DD8441581494EE3308A24E4F20 /* ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987AF5951E8BEF8330F2A3B3EDE72836 /* Fastream.h in Headers */ = {isa = PBXBuildFile; fileRef = F75F399500F26F2883CD0CBC778CDF8F /* Fastream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996FE7CCFA1F7E24EF36E409C8343C10 /* Fastream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C97F63C9A7D440F1BD15234002E49 /* Fastream.m */; };
 		9A7EE9F45C3CE55AE7E4A5E120F1D4CB /* Pods-ios-sdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6B080F3F1C07B0F266CA1E5B891EA /* Pods-ios-sdk_Example-dummy.m */; };
-		B33CD0EB89EC1EAAEB16DAAB21C941EE /* FastreamLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DBF9F3859F81BE266BB1DD61E8DB5F /* FastreamLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33CD0EB89EC1EAAEB16DAAB21C941EE /* FastreamLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFB0E20F9CD33C5849F41769C1389B7 /* FastreamLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD43D8BEE3BF11ABB42E48AED1EBD30E /* Pods-ios-sdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 268317528BAD7589DD175345E79A1498 /* Pods-ios-sdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -43,41 +44,39 @@
 /* Begin PBXFileReference section */
 		0465080215E5B09B97D83BA436169134 /* Pods-ios-sdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-sdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		0B29B4BBD8E8CF4EA4E909F029C35A3C /* Pods-ios-sdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-sdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0B6F7912F15BB3864BD5020FAD4D7A41 /* ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ios-sdk-dummy.m"; sourceTree = "<group>"; };
-		14FA457E7FCEDFDD49962757F400A75F /* Fastream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fastream.h; path = "ios-sdk/Classes/Fastream.h"; sourceTree = "<group>"; };
-		23C35D730101B23C2EAFFE80F77F0141 /* NSData+FastreamBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+FastreamBase64.m"; path = "ios-sdk/Classes/NSData+FastreamBase64.m"; sourceTree = "<group>"; };
+		0C4AF1F69F92F0C1E8DE8782FCAA395F /* ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		1AE5C036A869FE8A8F1820B236E1F526 /* ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ios-sdk-Info.plist"; sourceTree = "<group>"; };
 		268317528BAD7589DD175345E79A1498 /* Pods-ios-sdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-sdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		2B57B20675F513F2D30C5C4F9615BF64 /* Pods-ios-sdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-sdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2EDD88F83A9AE79E1D32ABAD1FE0908A /* NSData+FastreamBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FastreamBase64.h"; path = "ios-sdk/Classes/NSData+FastreamBase64.h"; sourceTree = "<group>"; };
 		2FA553464A42FAFC2B65618DEEA166BE /* Pods-ios-sdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ios-sdk_Example.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35867E8C995AFE26603E53B7879EF283 /* ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 		35DFC8D3F891D28CE63A117D5D239A89 /* Pods-ios-sdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-sdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		375718D58E4670BB0E7018F62783E49F /* Pods-ios-sdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-sdk_Tests-umbrella.h"; sourceTree = "<group>"; };
 		45306392555B3AAA13D93DD07CE2FF93 /* Pods-ios-sdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-sdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		498C1E155E4B6AF7F4D6A384E2464770 /* Pods-ios-sdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-sdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4BCD0BBF8CA6E1B6F2F07D2015670BCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		54FC9929936A34752E92D1F5868D14D5 /* Pods_ios_sdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_sdk_Example.framework; path = "Pods-ios-sdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56DBF9F3859F81BE266BB1DD61E8DB5F /* FastreamLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastreamLogger.h; path = "ios-sdk/Classes/FastreamLogger.h"; sourceTree = "<group>"; };
-		630FE2F1DD3D160BB40D180C3D6B1ED7 /* ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ios-sdk.modulemap"; sourceTree = "<group>"; };
 		6B1A32CAC97BC94EB132C635B0169BEF /* Pods-ios-sdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-sdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72D14A59D7D040F6F8DEE6B30DE80177 /* Pods-ios-sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		77099DE2A206B4768142903461B5FBB2 /* Pods-ios-sdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-sdk_Example-Info.plist"; sourceTree = "<group>"; };
-		790236159473D406770BECF85D0326C4 /* Fastream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Fastream.m; path = "ios-sdk/Classes/Fastream.m"; sourceTree = "<group>"; };
-		7C816EA2FAC71BD6932127DFD82C2E87 /* ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
-		8541E077FBBECF058E1F5CB11AC8B74A /* ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		7A6C97F63C9A7D440F1BD15234002E49 /* Fastream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Fastream.m; path = "ios-sdk/Classes/Fastream.m"; sourceTree = "<group>"; };
+		7E2290A28B9BE6AB2E843D8A2720D746 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "ios-sdk/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		85F567E99EE6C8716CF20287D7AD765C /* NSData+FastreamBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FastreamBase64.h"; path = "ios-sdk/Classes/NSData+FastreamBase64.h"; sourceTree = "<group>"; };
 		8E2D16AA1A930E7CDDC5C0096E9DD56A /* Pods-ios-sdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-sdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9BEA5A0AB5EEBAA18291F6F3D2C8FDC0 /* ios-sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "ios-sdk.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91F7B33D2A0F81D8F76399718F1C4BF3 /* ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ios-sdk.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A690434C046A1919917ADD25D4607ACC /* ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ios-sdk-Info.plist"; sourceTree = "<group>"; };
-		B118D97E5C324513D2AA7ECEB0F1214F /* ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-sdk-umbrella.h"; sourceTree = "<group>"; };
+		9EFB0E20F9CD33C5849F41769C1389B7 /* FastreamLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastreamLogger.h; path = "ios-sdk/Classes/FastreamLogger.h"; sourceTree = "<group>"; };
+		AEC70F3465652C732D2A30AF6DE91E72 /* ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
 		B900B6D9D696742DDBFFB7A75B3B043C /* Pods-ios-sdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ios-sdk_Tests.modulemap"; sourceTree = "<group>"; };
 		B9F6B080F3F1C07B0F266CA1E5B891EA /* Pods-ios-sdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-sdk_Example-dummy.m"; sourceTree = "<group>"; };
 		BED8E27875D752726992A7B49DCD47C8 /* Pods-ios-sdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-sdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		C1A7B9271F9D5C452D5F66A5B57C3BED /* ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
 		C59242D07DC0B612F0AF5F5E64C76162 /* Pods_ios_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_sdk_Tests.framework; path = "Pods-ios-sdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6659A217186B9BC46868C5540FCE0E8 /* ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ios_sdk.framework; path = "ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5EAEBA01BEA95DB14AE65BBFF900331 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CCAB053F11D560602DA5AE30D42BD961 /* NSData+FastreamBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+FastreamBase64.m"; path = "ios-sdk/Classes/NSData+FastreamBase64.m"; sourceTree = "<group>"; };
+		E95A7A57E43B9EE724E019D9CDF5FF42 /* ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		ED1363DD8441581494EE3308A24E4F20 /* ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-sdk-umbrella.h"; sourceTree = "<group>"; };
 		EE5348FB40D9ECAB893EBBBB01F69CFA /* Pods-ios-sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F75F399500F26F2883CD0CBC778CDF8F /* Fastream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fastream.h; path = "ios-sdk/Classes/Fastream.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,16 +107,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02325E390FAB9230C94B6A2BA6BF8AD5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9BEA5A0AB5EEBAA18291F6F3D2C8FDC0 /* ios-sdk.podspec */,
-				4BCD0BBF8CA6E1B6F2F07D2015670BCC /* LICENSE */,
-				E5EAEBA01BEA95DB14AE65BBFF900331 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0A5811F0B14204E2887C49B9657778A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,27 +117,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CF0DE37E5E1D4E6F547933B51D520EB /* Development Pods */ = {
+		1FB7142F99D71CA5D1D579BCAC67C5FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B8B0A43AB4A6103BB160C9578420EB9A /* ios-sdk */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6ED84ADF377721E97166E7C622A18C65 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				630FE2F1DD3D160BB40D180C3D6B1ED7 /* ios-sdk.modulemap */,
-				0B6F7912F15BB3864BD5020FAD4D7A41 /* ios-sdk-dummy.m */,
-				A690434C046A1919917ADD25D4607ACC /* ios-sdk-Info.plist */,
-				8541E077FBBECF058E1F5CB11AC8B74A /* ios-sdk-prefix.pch */,
-				B118D97E5C324513D2AA7ECEB0F1214F /* ios-sdk-umbrella.h */,
-				7C816EA2FAC71BD6932127DFD82C2E87 /* ios-sdk.debug.xcconfig */,
-				C1A7B9271F9D5C452D5F66A5B57C3BED /* ios-sdk.release.xcconfig */,
+				91F7B33D2A0F81D8F76399718F1C4BF3 /* ios-sdk.modulemap */,
+				0C4AF1F69F92F0C1E8DE8782FCAA395F /* ios-sdk-dummy.m */,
+				1AE5C036A869FE8A8F1820B236E1F526 /* ios-sdk-Info.plist */,
+				E95A7A57E43B9EE724E019D9CDF5FF42 /* ios-sdk-prefix.pch */,
+				ED1363DD8441581494EE3308A24E4F20 /* ios-sdk-umbrella.h */,
+				35867E8C995AFE26603E53B7879EF283 /* ios-sdk.debug.xcconfig */,
+				AEC70F3465652C732D2A30AF6DE91E72 /* ios-sdk.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ios-sdk";
+			path = "../Target Support Files/ios-sdk";
 			sourceTree = "<group>";
 		};
 		91EE56972ED1DD126C9038E24C607DFA /* Targets Support Files */ = {
@@ -177,19 +158,12 @@
 			path = "Target Support Files/Pods-ios-sdk_Example";
 			sourceTree = "<group>";
 		};
-		B8B0A43AB4A6103BB160C9578420EB9A /* ios-sdk */ = {
+		BF49D6E808BAE88BB7ABED4E73F50825 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				14FA457E7FCEDFDD49962757F400A75F /* Fastream.h */,
-				790236159473D406770BECF85D0326C4 /* Fastream.m */,
-				56DBF9F3859F81BE266BB1DD61E8DB5F /* FastreamLogger.h */,
-				2EDD88F83A9AE79E1D32ABAD1FE0908A /* NSData+FastreamBase64.h */,
-				23C35D730101B23C2EAFFE80F77F0141 /* NSData+FastreamBase64.m */,
-				02325E390FAB9230C94B6A2BA6BF8AD5 /* Pod */,
-				6ED84ADF377721E97166E7C622A18C65 /* Support Files */,
+				C128B91C960389E39A5F0FB55247F854 /* ios-sdk */,
 			);
-			name = "ios-sdk";
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -200,12 +174,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C128B91C960389E39A5F0FB55247F854 /* ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F75F399500F26F2883CD0CBC778CDF8F /* Fastream.h */,
+				7A6C97F63C9A7D440F1BD15234002E49 /* Fastream.m */,
+				9EFB0E20F9CD33C5849F41769C1389B7 /* FastreamLogger.h */,
+				85F567E99EE6C8716CF20287D7AD765C /* NSData+FastreamBase64.h */,
+				CCAB053F11D560602DA5AE30D42BD961 /* NSData+FastreamBase64.m */,
+				7E2290A28B9BE6AB2E843D8A2720D746 /* ReplaceMe.m */,
+				1FB7142F99D71CA5D1D579BCAC67C5FE /* Support Files */,
+			);
+			name = "ios-sdk";
+			path = "ios-sdk";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2CF0DE37E5E1D4E6F547933B51D520EB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BF49D6E808BAE88BB7ABED4E73F50825 /* Pods */,
 				0A5811F0B14204E2887C49B9657778A0 /* Products */,
 				91EE56972ED1DD126C9038E24C607DFA /* Targets Support Files */,
 			);
@@ -385,6 +374,7 @@
 				996FE7CCFA1F7E24EF36E409C8343C10 /* Fastream.m in Sources */,
 				83CB9F93850A243A96F5B3B63F5673F7 /* ios-sdk-dummy.m in Sources */,
 				7E2DF520C36BE822539F8D7EBAF35D55 /* NSData+FastreamBase64.m in Sources */,
+				6E50B07E16F710AE68BE1BE06FD993DB /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +414,7 @@
 /* Begin XCBuildConfiguration section */
 		1ECFD23A9415FC1155CB2DD053AB153A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C816EA2FAC71BD6932127DFD82C2E87 /* ios-sdk.debug.xcconfig */;
+			baseConfigurationReference = 35867E8C995AFE26603E53B7879EF283 /* ios-sdk.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -647,7 +637,7 @@
 		};
 		B727399BFB0242F7214B211DBFFEDE3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1A7B9271F9D5C452D5F66A5B57C3BED /* ios-sdk.release.xcconfig */;
+			baseConfigurationReference = AEC70F3465652C732D2A30AF6DE91E72 /* ios-sdk.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

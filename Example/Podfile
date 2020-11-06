@@ -1,9 +1,9 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'ios-sdk_Example' do
-  pod 'ios-sdk', :path => '../'
+  pod 'ios-sdk', :git => 'https://github.com/Fastream/ios-sdk.git'
 
   target 'ios-sdk_Tests' do
     inherit! :search_paths

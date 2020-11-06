@@ -19,11 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    fastream = [self createFastreamWithToken:@"eyJhbGciOiJIUzI1NiJ9.eyJpbnB1dF9uYW1lIjoieHRiIiwiaW5wdXRfZXZlbnRfbmFtZSI6Inh0YiIsImlzcyI6ImZhc3RyZWFtIiwic3ViIjoiQXBpSW5wdXQiLCJpYXQiOjE1OTEwMDkyNzd9.pkLbSjIRXCDp8jRVGBJ5RqGEsc12pyHgJz3-MdlfJlI" serverURL:@"https://prototype.fastream.io"];
-    [fastream track:@"didFinishLaunchingWithOptions" customEvent:nil];
-    [fastream track:@"iosEvent1" customEvent:nil];
-    [fastream track:@"iosEvent2" customEvent:nil];
-    [fastream flush];
+    fastream = [self createFastreamWithToken:@"eyJhbGciOiJIUzI1NiJ9.eyJpbnB1dF9uYW1lIjoieHRiIiwiaW5wdXRfZXZlbnRfbmFtZSI6Inh0YiIsImlzcyI6ImZhc3RyZWFtIiwic3ViIjoiTW9iaWxlU2RrSW5wdXQiLCJpYXQiOjE1OTgyMzUwNjR9.IVQBq9fe3TQMdO4O3RdX_AXp4hoNRKJLmq7-5PFQvTw" serverURL:@"https://prototype.fastream.io"];
     return YES;
 }
 
