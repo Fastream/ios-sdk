@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import <fastream_ios_sdk/Fastream.h>
 
-@interface FASTREAMViewController : UIViewController
+@interface FastreamViewController : UIViewController
 
 @end

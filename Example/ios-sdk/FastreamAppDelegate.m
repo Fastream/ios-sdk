@@ -6,20 +6,15 @@
 //  Copyright (c) 2020 lukasz7251. All rights reserved.
 //
 
-#import "FASTREAMAppDelegate.h"
+#import "FastreamAppDelegate.h"
 
-@implementation FASTREAMAppDelegate
-
-@synthesize fastream;
-
-- (Fastream*)createFastreamWithToken:(NSString*)token serverURL:(NSString*)server {
-    return [[Fastream alloc] initWithToken:token
-                               serverURL:server andFlushInterval:60];
-}
+@implementation FastreamAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    fastream = [self createFastreamWithToken:@"eyJhbGciOiJIUzI1NiJ9.eyJpbnB1dF9uYW1lIjoieHRiIiwiaW5wdXRfZXZlbnRfbmFtZSI6Inh0YiIsImlzcyI6ImZhc3RyZWFtIiwic3ViIjoiTW9iaWxlU2RrSW5wdXQiLCJpYXQiOjE1OTgyMzUwNjR9.IVQBq9fe3TQMdO4O3RdX_AXp4hoNRKJLmq7-5PFQvTw" serverURL:@"https://prototype.fastream.io"];
+    NSString *token = @"YOUR-TOKEN";
+    NSString *url = @"YOUR-URL";
+    [Fastream sharedInstanceWithToken:token serverURL:url];
     return YES;
 }
 

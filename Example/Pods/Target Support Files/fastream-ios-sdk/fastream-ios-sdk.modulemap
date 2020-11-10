@@ -1,0 +1,6 @@
+framework module fastream_ios_sdk {
+  umbrella header "fastream-ios-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

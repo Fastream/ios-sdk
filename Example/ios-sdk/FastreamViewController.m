@@ -6,17 +6,17 @@
 //  Copyright (c) 2020 lukasz7251. All rights reserved.
 //
 
-#import "FASTREAMViewController.h"
-#import "FASTREAMAppDelegate.h"
+#import "FastreamViewController.h"
+#import "FastreamAppDelegate.h"
 
-@interface FASTREAMViewController ()
+@interface FastreamViewController ()
 
 @end
 
-@implementation FASTREAMViewController
+@implementation FastreamViewController
 - (IBAction)sendEventButtonPressed {
-    Fastream *fastream = ((FASTREAMAppDelegate*)UIApplication.sharedApplication.delegate).fastream;
-    [fastream track:@"Button clicked!" customEvent:nil];
+    Fastream *fastream = [Fastream sharedInstance];
+    [fastream track:@"Test" customEvent:nil];
     [fastream flush];
 }
 

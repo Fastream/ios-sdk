@@ -14,6 +14,6 @@
 #import "FastreamLogger.h"
 #import "NSData+FastreamBase64.h"
 
-FOUNDATION_EXPORT double ios_sdkVersionNumber;
-FOUNDATION_EXPORT const unsigned char ios_sdkVersionString[];
+FOUNDATION_EXPORT double fastream_ios_sdkVersionNumber;
+FOUNDATION_EXPORT const unsigned char fastream_ios_sdkVersionString[];
 

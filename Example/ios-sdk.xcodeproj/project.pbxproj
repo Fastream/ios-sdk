@@ -14,8 +14,8 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* FASTREAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* FASTREAMAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* FASTREAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* FASTREAMViewController.m */; };
+		6003F59E195388D20070C39A /* FastreamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* FastreamAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* FastreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* FastreamViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -49,10 +49,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* ios-sdk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-sdk-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* FASTREAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FASTREAMAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* FASTREAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FASTREAMAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* FASTREAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FASTREAMViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* FASTREAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FASTREAMViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* FastreamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastreamAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* FastreamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastreamAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* FastreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastreamViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* FastreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastreamViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ios-sdk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-sdk_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -130,11 +130,11 @@
 		6003F593195388D20070C39A /* Example for ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* FASTREAMAppDelegate.h */,
-				6003F59D195388D20070C39A /* FASTREAMAppDelegate.m */,
+				6003F59C195388D20070C39A /* FastreamAppDelegate.h */,
+				6003F59D195388D20070C39A /* FastreamAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* FASTREAMViewController.h */,
-				6003F5A6195388D20070C39A /* FASTREAMViewController.m */,
+				6003F5A5195388D20070C39A /* FastreamViewController.h */,
+				6003F5A6195388D20070C39A /* FastreamViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -302,11 +302,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ios-sdk_Example/Pods-ios-sdk_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ios-sdk/ios_sdk.framework",
+				"${BUILT_PRODUCTS_DIR}/fastream-ios-sdk/fastream_ios_sdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ios_sdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fastream_ios_sdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,8 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* FASTREAMAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* FASTREAMViewController.m in Sources */,
+				6003F59E195388D20070C39A /* FastreamAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* FastreamViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

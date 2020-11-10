@@ -26,6 +26,12 @@
 
 @property (atomic, weak) id<FastreamDelegate> delegate; // allows fine grain control over uploading (optional)
 
++ (Fastream *)sharedInstanceWithToken:(NSString *)apiToken serverURL:(NSString*)url;
+
++ (Fastream *)sharedInstanceWithToken:(NSString *)apiToken serverURL:(NSString*)url launchOptions:(NSDictionary *)launchOptions;
+
++ (Fastream *)sharedInstance;
+
 - (instancetype)initWithToken:(NSString *)apiToken serverURL:(NSString *)url andFlushInterval:(NSUInteger)flushInterval;
 
 - (void)identify:(NSString *)distinctId;

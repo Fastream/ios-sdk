@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "FASTREAMAppDelegate.h"
+#import "FastreamAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([FASTREAMAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([FastreamAppDelegate class]));
     }
 }
