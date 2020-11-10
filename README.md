@@ -1,9 +1,8 @@
 # Fastream-iOS-SDK - an iOS Event Tracking Library
 
-[![CI Status](https://img.shields.io/travis/lukasz7251/ios-sdk.svg?style=flat)](https://travis-ci.org/lukasz7251/ios-sdk)
-[![Version](https://img.shields.io/cocoapods/v/ios-sdk.svg?style=flat)](https://cocoapods.org/pods/ios-sdk)
-[![License](https://img.shields.io/cocoapods/l/ios-sdk.svg?style=flat)](https://cocoapods.org/pods/ios-sdk)
-[![Platform](https://img.shields.io/cocoapods/p/ios-sdk.svg?style=flat)](https://cocoapods.org/pods/ios-sdk)
+[![Version](https://img.shields.io/cocoapods/v/fastream-ios-sdk.svg?style=flat)](https://cocoapods.org/pods/fastream-ios-sdk)
+[![License](https://img.shields.io/cocoapods/l/fastream-ios-sdk.svg?style=flat)](https://cocoapods.org/pods/fastream-ios-sdk)
+[![Platform](https://img.shields.io/cocoapods/p/fastream-ios-sdk.svg?style=flat)](https://cocoapods.org/pods/fastream-ios-sdk)
 
 ## Installation
 

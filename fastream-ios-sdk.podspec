@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/Fastream/ios-sdk'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.author           = { 'lukasz.szymanczuk' => 'lukasz.szymanczuk@fastream.io' }
   s.source           = { :git => 'https://github.com/Fastream/ios-sdk.git', :tag => s.version.to_s }
 
