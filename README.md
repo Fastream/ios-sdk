@@ -164,7 +164,7 @@ Open the `SampleApp.xcworkspace` and run the app.
 
 ## Author
 
-Fastream (Łukasz Szymańczuk), dev@fastream.io
+Fastream dev@fastream.io
 
 ## License
 
