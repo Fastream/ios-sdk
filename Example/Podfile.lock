@@ -1,5 +1,5 @@
 PODS:
-  - fastream-ios-sdk (0.0.5)
+  - fastream-ios-sdk (0.0.7)
 
 DEPENDENCIES:
   - fastream-ios-sdk (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  fastream-ios-sdk: 060b4eb0b8fa23dc6c1b9b736b32c89e9a07b676
+  fastream-ios-sdk: 685576eebf3acd9f5036ff98cebb151f53f76ca0
 
-PODFILE CHECKSUM: 296f7ec5534439c85550fc0944ad802f3e8cd064
+PODFILE CHECKSUM: f655a3c9cdb0b7adcbf6c8892bf9a7236843070d
 
 COCOAPODS: 1.9.3
