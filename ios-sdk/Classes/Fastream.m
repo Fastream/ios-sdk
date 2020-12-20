@@ -578,9 +578,16 @@ static __unused NSString *MPURLEncode(NSString *s)
         NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&urlResponse error:&error];
 
         [self updateNetworkActivityIndicator:NO];
-
+        
         if (error) {
             FastreamError(@"%@ network failure: %@", self, error);
+            break;
+        }
+        
+        NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) urlResponse;
+        NSInteger httpResponseStatusCode = [httpResponse statusCode];
+        if (httpResponseStatusCode != 200) {
+            FastreamError(@"%@ http failure: %@", self, httpResponseStatusCode);
             break;
         }
 

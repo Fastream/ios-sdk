@@ -296,7 +296,7 @@ property rights, Mixpanel may seek injunctive or other appropriate relief in
 any state or federal court in the State of California.
 </string>
 			<key>License</key>
-			<string>MIT</string>
+			<string>Apache License, Version 2.0</string>
 			<key>Title</key>
 			<string>fastream-ios-sdk</string>
 			<key>Type</key>

@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'ios-sdk_Example' do
-  pod 'fastream-ios-sdk'
-#  pod 'fastream-ios-sdk', :path => '../'
+#  pod 'fastream-ios-sdk'
+  pod 'fastream-ios-sdk', :path => '../'
   target 'ios-sdk_Tests' do
     inherit! :search_paths
     
