@@ -1,6 +1,6 @@
 {
   "name": "fastream-ios-sdk",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "summary": "Fastream SDK for iOS",
   "description": "Fastream-iOS-SDK - an iOS Event Tracking Library",
   "homepage": "https://github.com/Fastream/ios-sdk",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "lukasz.szymanczuk": "lukasz@fastream.io"
+    "Fastream": "dev@fastream.io"
   },
   "source": {
     "git": "https://github.com/Fastream/ios-sdk.git",
-    "tag": "0.0.7"
+    "tag": "0.0.9"
   },
   "platforms": {
     "ios": "9.0"

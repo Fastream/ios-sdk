@@ -40,6 +40,8 @@
 
 - (void)track:(NSString *)event customEvent:(NSDictionary *)customEvent;
 
+- (void)track:(NSString *)event properties:(NSDictionary *)properties;
+
 - (void)trackPushNotification:(NSDictionary *)userInfo;
 
 - (void)registerSuperProperties:(NSDictionary *)properties;

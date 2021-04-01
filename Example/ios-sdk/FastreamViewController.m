@@ -16,7 +16,7 @@
 @implementation FastreamViewController
 - (IBAction)sendEventButtonPressed {
     Fastream *fastream = [Fastream sharedInstance];
-    [fastream track:@"Test" customEvent:nil];
+    [fastream track:@"Test" properties:nil];
     [fastream flush];
 }
 
