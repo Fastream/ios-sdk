@@ -17,8 +17,11 @@ let package = Package(
     targets: [
         .target(
             name: "Fastream",
-            dependencies: [
-                .product(name: "Fastream", package: "ios-sdk"),
-            ])        
+            dependencies: [],
+            path: "Sources/ios-sdk"),
+        .testTarget(
+            name: "FastreamTests",
+            dependencies: ["Fastream"],
+            path: "Tests/ios-sdk"),
     ]
 )

@@ -1,6 +1,9 @@
-#import <Foundation/Foundation.h>
+#ifndef Fastream_h
+#define Fastream_h
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "FastreamLogger.h"
 
 @protocol FastreamDelegate;
 
@@ -76,3 +79,5 @@
 - (BOOL)fastreamWillFlush:(Fastream *)fastream;
 
 @end
+
+#endif

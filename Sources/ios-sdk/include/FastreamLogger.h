@@ -1,7 +1,7 @@
-#import <UIKit/UIKit.h>
-
 #ifndef FastreamLogger_h
 #define FastreamLogger_h
+
+#import <Foundation/Foundation.h>
 
 static inline void FastreamLog(NSString *format, ...) {
     __block va_list arg_list;
