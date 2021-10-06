@@ -3,20 +3,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "ios-sdk",
+    name: "Fastream",
     platforms: [
         .iOS(.v9)
     ],
     products: [
         .library(
-            name: "ios-sdk",
-            targets: ["ios-sdk"]),
+            name: "Fastream",
+            targets: ["Fastream"]),
     ],
     dependencies: [        
     ],
     targets: [
         .target(
-            name: "ios-sdk",
-            dependencies: [])        
+            name: "Fastream",
+            dependencies: [
+                .product(name: "Fastream", package: "ios-sdk"),
+            ])        
     ]
 )
