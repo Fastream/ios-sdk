@@ -587,7 +587,7 @@ static __unused NSString *MPURLEncode(NSString *s)
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) urlResponse;
         NSInteger httpResponseStatusCode = [httpResponse statusCode];
         if (httpResponseStatusCode != 200) {
-            NSLog(@"%@ http failure: %@", self, httpResponseStatusCode);
+            NSLog(@"%@ http failure: %ld", self, (long)httpResponseStatusCode);
             break;
         }
 
