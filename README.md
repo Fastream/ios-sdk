@@ -6,7 +6,7 @@
 
 ## Installation
 
-Integrating the Fastream-iOS library can be done in a few simple steps, using [CocoaPods](http://cocoapods.org).
+Integrating the Fastream-iOS library can be done in a few simple steps, using [CocoaPods](http://cocoapods.org) or [Swift Package Manager](https://swift.org/package-manager).
 
 ### To install CocoaPods:
 
@@ -25,6 +25,20 @@ pod "fastream-ios-sdk"
 3. Close Xcode
 4. Open a terminal and run `pod install` in the root directory of your project.
 5. Open the new Xcode workspace (`<your-project>.xcworkspace`)
+
+### To integrate via Swift Package Manager:
+
+In Xcode: **File → Add Package Dependencies…**, paste `https://github.com/Fastream/ios-sdk.git`, choose **Exact Version** and enter `0.0.11-spm`.
+
+Or in `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/Fastream/ios-sdk.git", exact: "0.0.11-spm")
+]
+```
+
+Note: SPM tags use the `-spm` suffix because the SPM source layout lives on a separate branch (`spm`) from the CocoaPods source layout (`master`). The version number tracks CocoaPods releases (so `0.0.11-spm` corresponds to CocoaPods `0.0.10` plus SPM-only doc updates).
 
 ### Compatibility
 
